@@ -41,7 +41,8 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1 className="logo" onClick={() => navigate("/")}>Learn by Playing</h1>
+
+      <h1 className="logo" onClick={() => navigate("/")}>KidsGames</h1>
       <nav>
         {user ? (
           <div className="nav-links">
